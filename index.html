@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/21f765aff9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="flex flex--between header">
+            <div class="circles__container">
+                <div class="circle"></div>
+                <div class="circle">A</div>
+            </div>
+            <nav class="nav__container">
+                <ul class="nav__list grid">
+                    <li class="nav__item home">Home</li>
+                    <li class="nav__item">Espectaculo</li>
+                    <li class="nav__item">Deportes</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="banner flex flex--center">
+            <h1 class="banner__title">Blog Afrianska
+            </h1>
+            <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+    </header>
+
+    <main class="width--940">
+        <div class="search flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="search__input" type="search" id="gsearch" name="gsearch" placeholder="Search Article">
+        </div>
+
+        <section class="popular">
+            <h2 class="section__title">POPULAR</h2>
+            <article class="flex firstpopular">
+                <div class="article__maintext article__maintext--50">
+                    <h3 class="title">Feugiat sodales at nullam tellus.</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <div class="img__container img__container--50%">
+                    <img src="./img/img-post-1.png" alt="img1">
+                </div>
+
+            </article>
+
+            <div class="grid padding-bottom40">
+                <article>
+                    <div class="img__container">
+                        <img src="./img/img-post-2.png" alt="img2">
+                    </div>
+                    <div class="article__maintext">
+                        <h3 class="title title--22">Porta proin tellus sed pulvinar odio eu pulvinar.</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="img__container">
+                        <img src="./img/img-post-3.png" alt="img3">
+                    </div>
+                    <div class="article__maintext">
+                        <h3 class="title title--22">Non quam tortor, proin eu egestas scelerisque.</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="img__container">
+                        <img src="./img/img-post-4.png" alt="img4">
+                    </div>
+                    <div class="article__maintext">
+                        <h3 class="title title--22">Amet amet sed pharetra risus sit eget interdum.</h3>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="section__title border--grey">See All Popular Article</p>
+        </section>
+
+        <section class="allarticle">
+            <h2 class="section__title">ALL ARTICLE</h2>
+
+            <article class="flex allarticle__article">
+                <div class="img__container img__container--330">
+                    <img src="./img/img-post-5.png" alt="img-5">
+                </div>
+
+                <div class="article__maintext article__maintext--paddleft">
+                    <h3 class="title title--18">Massa eu in laoreet enim augue vulputate nunc.</h3>
+                    <p class="text text--14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+
+                    <div class="article__data flex flex--between">
+                        <div class="article__text">
+                            <p class="name">Samatha Leuthex</p>
+                            <p class="date">May 5, 3 min read</p>
+                        </div>
+                        <div class="article__icon">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+            <article class="flex allarticle__article">
+                <div class="img__container img__container--330">
+                    <img src="./img/img-post-6.png" alt="img-6">
+                </div>
+                <div class="article__maintext article__maintext--paddleft">
+                    <h3 class="title title--18">Feugiat a euismod arcu feugiat posuere morbi.</h3>
+                    <p class="text text--14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                    <div class="article__data flex flex--between">
+                        <div class="article__text">
+                            <p class="name">Samatha Leuthex</p>
+                            <p class="date">May 5, 3 min read</p>
+                        </div>
+                        <div class="article__icon">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flex allarticle__article">
+                <div class="img__container img__container--330">
+                    <img src="./img/img-post-7.png" alt="img-7">
+                </div>
+                <div class="article__maintext article__maintext--paddleft">
+                    <h3 class="title title--18">Sociis purus pellentesque faucibus vitae et felis.</h3>
+                    <p class="text text--14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+
+                </div>
+            </article>
+
+            <article class="flex allarticle__article">
+                <div class="img__container img__container--330">
+                    <img src="./img/img-post-8.png" alt="img-8">
+                </div>
+                <div class="article__maintext article__maintext--paddleft">
+                    <h3 class="title title--18">Cursus feugiat mi pellentesque mauris sed eu.</h3>
+                    <p class="text text--14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+
+                        <div class="article__data flex flex--between">
+                            <div class="article__text">
+                                <p class="name">Samatha Leuthex</p>
+                                <p class="date">May 5, 3 min read</p>
+                            </div>
+                            <div class="article__icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+
+                </div>
+            </article>
+
+            <article class="flex allarticle__article">
+                <div class="img__container img__container--330">
+                    <img src="./img/img-post-9.png" alt="img-9">
+                </div>
+                <div class="article__maintext article__maintext--paddleft">
+                    <h3 class="title title--18">A morbi arcu curabitur etiam fringilla augue.</h3>
+                    <p class="text text--14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+
+                    <div class="article__data flex flex--between">
+                        <div class="article__text">
+                            <p class="name">Samatha Leuthex</p>
+                            <p class="date">May 5, 3 min read</p>
+                        </div>
+                        <div class="article__icon">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+
+            <div class="navarticle flex flex--between">
+                <div class=" flex">
+                    <img src="./img/ic_arrow_back_18px.svg" alt="Old Post">
+
+                    <p class="old">Old Post</p>
+                </div>
+
+                <div class="flex">
+                    <p class="old">Next Post</p>
+
+                    <img src="./img/ic_arrow_forward_18px.svg" alt="Next Post">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="width--940">
+            <article class="interested flex">
+                <div class="interested__textcontainer">
+                    <h3 class="interested__title">Intersted to work with our team?</h3>
+                    <p class="interested__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+
+                <button class="interested__btn">
+                    Let's Talk
+                </button>
+            </article>
+
+            <article class="contact grid grid--1">
+                <div class="contact__item">
+                    <h3 class="contact__title contact__title1 flex">
+                        <div class="circles__container">
+                            <div class="circle circle__foot"></div>
+                            <div class="circle circle__foot"><p>A</p></div>
+                        </div>
+
+                        Afrianska</h3>
+                    <p class="contact__text">A.  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="contact__text">T.  +62-812-7313-4321</p>
+                    <p class="contact__text">E.  hello.afrian@gmail.com</p>
+                </div>
+
+                <div class="contact__item">
+                    <h3 class="contact__title">About US</h3>
+                    <p class="contact__text">About</p>
+                    <p class="contact__text">What We Do</p>
+                    <p class="contact__text">Project</p>
+                    <p class="contact__text">How It Work With Us</p>
+                </div>
+
+                <div class="contact__item">
+                    <h3 class="contact__title">Follow US</h3>
+                    <p class="contact__text">Instagram</p>
+                    <p class="contact__text">Facebook</p>
+                    <p class="contact__text">LinkedIn</p>
+                    <p class="contact__text">Youtube</p>
+                </div>
+            </article>
+
+            <p class="footer__footer">2019 © Afrianska. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

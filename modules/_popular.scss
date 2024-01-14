@@ -1,0 +1,106 @@
+.section__title{
+    color: var(--blue_03, #356EAD);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 26px 0;
+}
+
+.popular{
+    .border--grey{
+        border-bottom: 1px rgba(0, 0, 0, 0.20) solid;
+        width: 100%;
+        text-align: end;
+    }
+}
+
+.firstpopular{
+    padding: 4px 0 30px 0;
+}
+
+.article__maintext{
+
+    &--50{
+        width:50%;
+        float: left;
+        padding-right:20px;
+    }
+
+    &--paddleft{
+        padding-left: 20px;
+    }
+
+
+    .title{
+        color: var(--Blue_01, #1F3F68);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46px; /* 127.778% */
+        letter-spacing: 1.44px;
+
+        &--22{
+            font-size: 22px;
+            line-height: 32px; /* 145.455% */
+            padding: 12px 0;
+            line-height: 32px; /* 145.455% */
+            letter-spacing: 0.38px;
+        }
+
+        &--18{
+            font-size: 18px;
+            line-height: 28px; /* 155.556% */
+            letter-spacing: 0.72px;
+        }
+    }
+
+    .text{
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 26px; /* 162.5% */
+        letter-spacing: 0.64px;
+        padding: 17px 0;
+        opacity: 0.6;
+
+        &--14{
+            font-size: 14px;
+            line-height: 24px; /* 171.429% */
+            letter-spacing: 0.56px;
+            padding: 5px 0;
+        }
+    }
+
+    .article__data{
+        padding: 30px 0 0 0;
+        color: var(--Blue_01, #1F3F68);
+        font-size: 14px;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.56px;
+
+        .name{
+        font-weight: 700;
+
+        }
+
+        .date{
+            font-family: Arial;
+            opacity: 0.4;
+            
+        }
+
+        .fa-bookmark{
+            padding-right:32px;
+        }
+
+        i{
+            color:#356EAD;
+            opacity: 1;
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.padding-bottom40{
+    padding-bottom:40px;
+}

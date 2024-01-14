@@ -1,0 +1,32 @@
+.allarticle{
+    padding:58px 0;
+}
+
+.img__container--330{
+    width: 330px;
+    img{
+        width: 330px;
+    }
+
+}
+
+.allarticle__article{
+    padding:10px 0;
+}
+
+.navarticle{
+    padding: 46px 0;
+    color: var(--blue_03, #356EAD);
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .old{
+        padding: 0 15px;
+        margin:0;
+    }
+}
