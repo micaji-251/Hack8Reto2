@@ -47,8 +47,8 @@ body {
        column-gap: 20px;
 }
 .grid--1 {
-  -moz-column-gap: 160px;
-       column-gap: 160px;
+  -moz-column-gap: 140px;
+       column-gap: 140px;
 }
 
 .allarticle {
