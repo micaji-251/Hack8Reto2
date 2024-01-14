@@ -158,6 +158,11 @@ footer {
   font-weight: 400;
 }
 
+.mayuscula {
+  padding-right: 10px;
+  font-weight: 700;
+}
+
 .header {
   padding: 50px 20px;
 }
